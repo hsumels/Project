@@ -1,0 +1,163 @@
+h6 {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 5px;
+  font-weight: lighter;
+}
+h3 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 28px;
+  font-size: 14px;
+  color: plum;
+  font-weight: lighter;
+}
+.city-name {
+  font-size: 50px;
+  font-weight: lighter;
+}
+.current-location-button {
+  font-style: "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
+    "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 200;
+  font-size: 12px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 0px 5px;
+  position: relative;
+  top: -10px;
+  box-shadow: 3px 5px 5px rgba(189, 101, 189, 0.137);
+  transition: all 500ms ease-in-out;
+  margin-left: 5px;
+}
+
+.current-location-button:hover {
+  background-color: #83868b;
+  color: white;
+  border: 1px solid black;
+}
+
+.weather-app {
+  padding: 15px 10px 10px 10px;
+  margin: 20px;
+  max-width: 650px;
+  border-radius: 15px;
+  background-color: rgba(235, 164, 205, 0.192);
+}
+.weather-app-main {
+  border: 2px solid #dadde1;
+  padding: 15px;
+  margin: 15px 0px 5px 0px;
+  border-radius: 8px;
+  background-color: rgba(250, 118, 195, 0.192);
+}
+.temp {
+  font-size: 60px;
+  font-weight: 100;
+  font-style: "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
+    "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.search-bar {
+  margin: 0 auto;
+  display: block;
+  max-width: 90%;
+}
+
+.search-icon {
+  color: black;
+  font-size: 20px;
+}
+
+.city-info {
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+}
+
+.weather-text {
+  margin: 0px;
+  padding: 0px;
+}
+
+.weather-units {
+  position: relative;
+  top: -32px;
+  font-weight: 200;
+  font-style: "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
+    "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: #949494;
+}
+.weather-unit {
+  text-decoration: none;
+}
+
+.temp-emoji-parameters {
+  font-size: 100px;
+  width: 100%;
+  text-align: right;
+}
+
+.temp-emoji {
+  font-size: 55px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.mini-weather-main {
+  border: 2px solid #dadde1;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 8px;
+}
+
+.mini-weather-emoji {
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.mini-weather-col {
+  border: 1px solid #dadde1;
+  padding: 15px 0px;
+  margin: 5px;
+  border-radius: 8px;
+  background-color: rgba(250, 118, 195, 0.192);
+}
+
+.attributes {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.attributes-text {
+  font-size: 15px;
+  text-align: right;
+  margin: 0px;
+}
+
+.search-icon {
+  border: none;
+  outline: none;
+}
+.search-icon:active {
+  outline: none;
+  border: none;
+}
+
+#city-text {
+  text-transform: capitalize;
+}
