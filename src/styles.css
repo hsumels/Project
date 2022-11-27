@@ -12,9 +12,10 @@ h3 {
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 28px;
-  font-size: 14px;
+  font-size: 10px;
   color: plum;
   font-weight: lighter;
+  text-align: auto;
 }
 .city-name {
   font-size: 50px;
